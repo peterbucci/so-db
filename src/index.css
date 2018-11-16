@@ -23,13 +23,18 @@ body {
 }
 
 #sidebar {
-  background-color: lightblue;
+  background-color: #60747F;
   width: 200px;
   flex-shrink: 0;
+  margin-right: 10px;
+  box-shadow: 1px 0 1px #000000;
 }
 
 #sidebar > img {
-  max-width: 100%;
+  max-width: 80%;
+  display: block;
+  margin: auto;
+  padding: 10px 0;
 }
 
 #content {
@@ -37,22 +42,26 @@ body {
 }
 
 .category {
+  background-color: #4A525A;
   font-size: 1.5em;
   cursor: crosshair;
   padding: 10px;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #4B4237;
   border-top: 1px solid grey;
-  margin-top: -1px;
+  color: #DCEDFF;
 }
 
 .category.expanded, .category:hover {
-  background-color: blue;
+  background-color: #827081;
+  color: #CFD2CD;
+  
 }
 
 .dropdown {
   display: none;
   padding-left: 20px;
   padding-top: 15px;
+  color: #DCEDFF;
 }
 
 .dropdown > li {

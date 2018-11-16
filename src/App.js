@@ -41,7 +41,13 @@ class App extends Component {
         />
         <div id="content">
           {content ?
-            <div>{content.name}</div>
+            <div>
+              <ul>
+              <li>Name: {content.name}</li>
+              <li>Role: {content.role}</li>
+              <li>Weapon: {content.weapon}</li>
+              </ul>
+            </div>
             :
             <div>Welcome to SO Wiki</div>
           }
